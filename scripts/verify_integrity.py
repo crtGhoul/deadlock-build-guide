@@ -41,11 +41,34 @@ print(f"Total heroes with gameBuildsBin: {len(bins)}")
 assert len(bins) == 42, f"Expected 42 heroes in gameBuildsBin, got {len(bins)}"
 
 non_kluv = []
+decomp_errors = []
+total_builds = 0
+
+import base64
+try:
+    import zstandard as zstd
+    dctx = zstd.ZstdDecompressor()
+except ImportError:
+    dctx = None
+
 for h, bdict in bins.items():
     for bname, bstr in bdict.items():
+        total_builds += 1
         if not bstr.startswith('KLUv'):
             non_kluv.append(f"{h} ({bname})")
+        if dctx:
+            try:
+                raw = base64.b64decode(bstr)
+                decomp = dctx.decompress(raw)
+                if len(decomp) < 20:
+                    decomp_errors.append(f"{h} ({bname}) payload too small")
+            except Exception as e:
+                decomp_errors.append(f"{h} ({bname}): {e}")
+
+print(f"Total builds verified: {total_builds}")
 print(f"Non-KLUv builds: {non_kluv}")
 assert len(non_kluv) == 0, f"Found non-KLUv builds: {non_kluv}"
+assert len(decomp_errors) == 0, f"Decompression errors: {decomp_errors}"
 
 print("INTEGRITY CHECK 100% PASSED!")
+
