@@ -1190,7 +1190,7 @@
     function safeClass(text){ return text.toLowerCase().replace(/[^a-z0-9]+/g,'-'); }
     function imageOrFallback(src, alt, className, fallbackClass, letter){
       if(!src) return `<div class="${fallbackClass}" role="img" aria-label="${alt}">${letter}</div>`;
-      const url = (src.startsWith('http://') || src.startsWith('https://') || src.startsWith('data:') || src.startsWith('/')) ? src : `assets/${src}`;
+      const url = (src.startsWith('http://') || src.startsWith('https://') || src.startsWith('data:') || src.startsWith('/') || src.startsWith('assets/')) ? src : `assets/${src}`;
       return `<img class="${className}" src="${url}" alt="${alt}" loading="lazy" onerror="this.style.display='none';">`;
     }
     function resolveAbilityStep(hero, rawStep){
