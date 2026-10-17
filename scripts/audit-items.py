@@ -32,17 +32,47 @@ def fetch_live_items():
             print(f"Notice: {url} failed ({e}), trying next endpoint...", file=sys.stderr)
     return None
 
+def extract_literal(content, decl):
+    """Parse the JSON literal after `const <decl> =` (depth-aware, string-safe)."""
+    m = re.search(r'(?:const|let|var)\s+' + re.escape(decl) + r'\s*=', content)
+    if not m:
+        raise SystemExit(f'ERROR: declaration not found in index.html: {decl}')
+    i = m.end()
+    while content[i] in ' \t\n':
+        i += 1
+    open_c, close_c = content[i], (']' if content[i] == '[' else '}')
+    depth, instr, esc, j = 0, False, False, i
+    while j < len(content):
+        ch = content[j]
+        if instr:
+            if esc:
+                esc = False
+            elif ch == '\\':
+                esc = True
+            elif ch == '"':
+                instr = False
+        else:
+            if ch == '"':
+                instr = True
+            elif ch == open_c:
+                depth += 1
+            elif ch == close_c:
+                depth -= 1
+                if depth == 0:
+                    return json.loads(content[i:j + 1])
+        j += 1
+    raise SystemExit(f'ERROR: unbalanced literal for {decl}')
+
+
 def extract_items_from_html(html_path):
     with open(html_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
     # Extract heroes array
-    m_heroes = re.search(r'const heroes\s*=\s*(\[.*?\]);\s*const alts', content, re.DOTALL)
-    heroes = json.loads(m_heroes.group(1)) if m_heroes else []
-
-    # Extract alts array
-    m_alts = re.search(r'const alts\s*=\s*(\{.*?\});\s*const portraits', content, re.DOTALL)
-    alts = json.loads(m_alts.group(1)) if m_alts else {}
+    heroes = extract_literal(content, 'heroes')
+    alts = extract_literal(content, 'alts')
+    if not heroes:
+        raise SystemExit('ERROR: extracted 0 heroes from index.html - refusing to audit nothing')
 
     build_items = []
     for h in heroes:
@@ -170,7 +200,8 @@ def run_audit(html_path='index.html', output_md='audit-report.md'):
         report.append("\n> Run `python scripts/audit-items.py` after Valve updates to verify shop integrity.")
     else:
         report.append("### ✅ Audit Passed: All Items 100% Up-To-Date")
-        report.append("All item names, categories, and prices across all 42 hero builds match Valve's live game database.")
+        hero_total = len({it['hero'] for it in build_items})
+        report.append(f"All item names, categories, and prices across all {hero_total} hero builds match Valve's live game database.")
 
     markdown_output = "\n".join(report)
     with open(output_md, 'w', encoding='utf-8') as f:

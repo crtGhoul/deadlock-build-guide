@@ -89,7 +89,7 @@ try:
     dctx = zstd.ZstdDecompressor()
 except ImportError:
     dctx = None
-    print('WARN: zstandard not installed, skipping decompression checks')
+    check(False, 'zstandard library installed (required for payload decompression checks)')
 
 non_kluv, decomp_errors, total_builds = [], [], 0
 for h, bdict in bins.items():
@@ -108,7 +108,8 @@ for h, bdict in bins.items():
 
 check(total_builds == EXPECTED_BUILDS, f'{total_builds} builds total (expected {EXPECTED_BUILDS})')
 check(not non_kluv, f'non-KLUv builds: {non_kluv}' if non_kluv else 'all payloads start with KLUv')
-check(not decomp_errors, f'decompression errors: {decomp_errors}' if decomp_errors else 'all payloads are valid Zstd frames')
+if dctx:
+    check(not decomp_errors, f'decompression errors: {decomp_errors}' if decomp_errors else 'all payloads are valid Zstd frames')
 check('Violet' in bins and 'Standard' in bins['Violet'], 'Violet Standard payload present')
 
 fb = extract_literal('finalBuilds')

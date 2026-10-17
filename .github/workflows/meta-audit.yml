@@ -28,6 +28,11 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"
 
+      - name: Verify build integrity (heroes, skill-ups, payloads)
+        run: |
+          pip install zstandard
+          python scripts/verify_integrity.py
+
       - name: Upload Audit Artifact
         uses: actions/upload-artifact@v4
         with:
