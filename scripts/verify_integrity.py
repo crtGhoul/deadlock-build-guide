@@ -9,8 +9,8 @@ import re
 import sys
 from pathlib import Path
 
-EXPECTED_HEROES = 43
-EXPECTED_BUILDS = 70  # 43 heroes, 27 of them with an alt tab (69 + Violet Standard)
+EXPECTED_HEROES = 44
+EXPECTED_BUILDS = 71  # 43 heroes, 27 of them with an alt tab (69 + Violet Standard)
 EXPECTED_CROSSHAIRS = 24
 
 index_path = Path(__file__).parent.parent / 'index.html'
@@ -110,14 +110,14 @@ check(total_builds == EXPECTED_BUILDS, f'{total_builds} builds total (expected {
 check(not non_kluv, f'non-KLUv builds: {non_kluv}' if non_kluv else 'all payloads start with KLUv')
 if dctx:
     check(not decomp_errors, f'decompression errors: {decomp_errors}' if decomp_errors else 'all payloads are valid Zstd frames')
-check('Violet' in bins and 'Standard' in bins['Violet'], 'Violet Standard payload present')
+check('Nurse Harrow' in bins and 'Standard' in bins['Nurse Harrow'], 'Nurse Harrow Standard payload present')
 
 fb = extract_literal('finalBuilds')
-check('Violet' in fb, 'Violet present in finalBuilds')
-check(len(fb['Violet']['standard']['items']) > 0, 'Violet final build non-empty')
+check('Nurse Harrow' in fb, 'Nurse Harrow present in finalBuilds')
+check(len(fb['Nurse Harrow']['standard']['items']) > 0, 'Nurse Harrow final build non-empty')
 
-check(content.count('43 heroes') >= 1, 'hero count text updated to 43')
-check('Violet released' in content, 'Violet changelog entry present')
+check(content.count('44 heroes') >= 1, 'hero count text updated to 44')
+check('Nurse Harrow released' in content, 'Nurse Harrow changelog entry present')
 
 if failures:
     print(f'\nINTEGRITY CHECK FAILED ({len(failures)} failures)')
