@@ -1,6 +1,6 @@
 # Deadlock Build Guide
 
-Full builds for all 43 playable Deadlock heroes — exact left-to-right buy order, ability priority + 16-step skill-up track, situational items, combos, and alternate builds where a hero genuinely has one.
+Full builds for all 44 playable Deadlock heroes — exact left-to-right buy order, ability priority + 16-step skill-up track, situational items, combos, and alternate builds where a hero genuinely has one.
 
 **Live:** https://crtghoul.github.io/deadlock-build-guide/
 
