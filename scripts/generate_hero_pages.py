@@ -13,7 +13,7 @@ import re
 from pathlib import Path
 
 REPO = Path(__file__).parent.parent
-BASE = "https://crtghoul.github.io/deadlock-build-guide"
+BASE = "https://deadlock-build-guide.pages.dev"
 content = (REPO / "index.html").read_text(encoding="utf-8")
 
 
@@ -64,10 +64,10 @@ for h in heroes:
     s = slug(name)
     tier = tier_of.get(name, "")
     has_alt = name in alts
-    desc = (f"{name} build for Deadlock ({h['role']}, {tier} tier): exact buy order, "
-            f"ability priority, 16-step skill-up track, situational items and combos"
-            + (", plus an alternate build" if has_alt else "")
-            + " \u2014 with a copy-paste in-game import.")
+    desc = (f"{name} builds for Deadlock ({h['role']}, {tier} tier): five complete builds "
+            f"\u2014 Weapon, Spirit, Vitality, NUKE, and CN (\u2605 META pick marked) \u2014 each with exact buy order, "
+            f"ability priority, 16-step skill-up track, sell/upgrade path, late-game win condition "
+            f"and meta counters, with a copy-paste in-game import.")
     title = f"{name} Build \u2014 Deadlock Build Guide"
     portrait = portraits.get(name, "")
     img_url = portrait if portrait.startswith("http") else f"{BASE}/{portrait}"

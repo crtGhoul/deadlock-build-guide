@@ -1,0 +1,2785 @@
+{
+ "Active Reload": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 1600,
+  "fx": [
+   "While reloading, pressing Reload during the highlighted portion will instantly finish your reload and grant you Fire Rate, Bullet Lifesteal and Move Speed."
+  ],
+  "imbue": false,
+  "stats": [
+   "+20% Max Ammo",
+   "+25% Fire Rate",
+   "+16% Bullet Lifesteal",
+   "+0.75m Move Speed",
+   "7s Duration"
+  ],
+  "tier": 2
+ },
+ "Alchemical Fire": {
+  "active": true,
+  "cat": "Weapon",
+  "cd": 30,
+  "cost": 3200,
+  "fx": [
+   "Throw a flask that explodes on contact, creating an area that does increasing spirit damage per second and reduces enemy Bullet Resist.50% less effective vs non-heroes."
+  ],
+  "imbue": false,
+  "stats": [
+   "+10 Spirit Power",
+   "45 Damage Per Second",
+   "-7% Bullet Resist",
+   "95 Max DPS",
+   "10m Radius",
+   "5s Duration"
+  ],
+  "tier": 3
+ },
+ "Ammo Scavenger": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 800,
+  "fx": [
+   "Any time you secure or deny a Soul from an entity you get ammo back and gain stacking Spirit Power.At Max Stacks, gain bonus Sprint speed"
+  ],
+  "imbue": false,
+  "stats": [
+   "+2 Ammo Per Soul",
+   "+1 Spirit Power Per Soul",
+   "+2m Sprint Speed",
+   "45s Duration",
+   "18 Max Stacks"
+  ],
+  "tier": 1
+ },
+ "Arcane Surge": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 1600,
+  "fx": [
+   "After you Dash-Jump, the next ability you use within 7s will have bonus Range, Duration, and Spirit Power."
+  ],
+  "imbue": false,
+  "stats": [
+   "+1 Stamina",
+   "+12% Stamina Recovery",
+   "+12% Ability Range",
+   "+15% Ability Duration",
+   "+20 Spirit Power",
+   "7s Cast Window"
+  ],
+  "tier": 2
+ },
+ "Arctic Blast": {
+  "active": true,
+  "cat": "Spirit",
+  "cd": 24,
+  "cost": 6400,
+  "fx": [
+   "Release an expanding ice blast that deals spirit damage, Freezing and then Slowing targets it hits.Slowed targets have their stamina regen frozen"
+  ],
+  "imbue": false,
+  "stats": [
+   "+10% Spirit Resist",
+   "175 Damage",
+   "1s Freeze Duration",
+   "16m End Radius"
+  ],
+  "tier": 4
+ },
+ "Armor Piercer": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 6400,
+  "fx": [
+   "Your Bullets have a chance to become unavoidable, piercing through enemies and ignoring their Bullet Resistance."
+  ],
+  "imbue": false,
+  "stats": [
+   "+60% Bullet Velocity",
+   "+8% Weapon Damage",
+   "55% Proc Chance"
+  ],
+  "tier": 4
+ },
+ "Ballistic Enchantment": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 3200,
+  "fx": [
+   "Imbue an ability with increased range. Dealing damage with that ability grants you increased weapon damage per unique hero hit. Has reduced effect on non-heroes."
+  ],
+  "imbue": true,
+  "stats": [
+   "+20% Weapon Damage per Stack",
+   "+22% Ability Range",
+   "20s Duration",
+   "+5% Non-Hero Weapon Damage",
+   "8 Non-Hero Stack Limit"
+  ],
+  "tier": 3
+ },
+ "Battle Vest": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 1600,
+  "fx": [
+   "While you are above 65% health, gain weapon damage and bonus fire rate."
+  ],
+  "imbue": false,
+  "stats": [
+   "+18% Bullet Resist",
+   "+3 Out of Combat Regen",
+   "+18% Weapon Damage",
+   "+7% Fire Rate"
+  ],
+  "tier": 2
+ },
+ "Berserker": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 3200,
+  "fx": [
+   "Your Weapon Damage increases as you take sustained damage."
+  ],
+  "imbue": false,
+  "stats": [
+   "+8% Bullet Resist",
+   "+7% Weapon Damage per Stack",
+   "120 Damage taken to Stack",
+   "10 Max Stacks",
+   "10s Duration"
+  ],
+  "tier": 3
+ },
+ "Blood Tribute": {
+  "active": true,
+  "cat": "Weapon",
+  "cost": 3200,
+  "fx": [
+   "Toggle: Continually sacrifice Health to improve fire rate, Debuff Resistance and Move Speed."
+  ],
+  "imbue": false,
+  "stats": [
+   "+8% Debuff Resist",
+   "+8% Spirit Resist",
+   "+4 Out of Combat Regen",
+   "50/s Health Drain",
+   "+35% Fire Rate",
+   "+35% Debuff Resist",
+   "+2.0m Move Speed"
+  ],
+  "tier": 3
+ },
+ "Boundless Spirit": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 6400,
+  "imbue": false,
+  "stats": [
+   "+15% Spirit Power",
+   "+30 Spirit Power",
+   "+75 Bonus Health",
+   "+4 Out of Combat Regen"
+  ],
+  "tier": 4
+ },
+ "Bullet Armor": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 1600,
+  "imbue": false,
+  "stats": [
+   "+18% Bullet Resist"
+  ],
+  "tier": 2
+ },
+ "Bullet Lifesteal": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 1600,
+  "imbue": false,
+  "stats": [
+   "+13% Bullet Lifesteal",
+   "+90 Bonus Health",
+   "+6% Weapon Damage"
+  ],
+  "tier": 2
+ },
+ "Bullet Resilience": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 3200,
+  "fx": [
+   "When below 50% health, gain additional Bullet Resist."
+  ],
+  "imbue": false,
+  "stats": [
+   "+30% Bullet Resist",
+   "+3 Out of Combat Regen",
+   "+15% Bullet Resist"
+  ],
+  "tier": 3
+ },
+ "Bullet Resist Shredder": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 1600,
+  "fx": [
+   "Reduces Bullet Resist on enemies when you deal spirit damage."
+  ],
+  "imbue": false,
+  "stats": [
+   "+9% Bullet Resist",
+   "+9% Weapon Damage",
+   "-10% Bullet Resist",
+   "8s Duration"
+  ],
+  "tier": 2
+ },
+ "Burst Fire": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 3200,
+  "fx": [
+   "Briefly gain Fire Rate and Move Speed when one of your bullets hits a hero."
+  ],
+  "imbue": false,
+  "stats": [
+   "+50% Slide Distance",
+   "+10% Fire Rate",
+   "+32% Fire Rate",
+   "+1.25m Move Speed",
+   "4.5s Duration"
+  ],
+  "tier": 3
+ },
+ "Capacitor": {
+  "active": true,
+  "cat": "Weapon",
+  "cd": 40,
+  "cost": 6400,
+  "fx": [
+   "Your bullets have a chance to shock your target. The shock will jump to a nearby enemy.",
+   "Launch a projectile that deals damage, applies a strong slow that recovers over time, prevents Stamina usage and Silences their movement-based items and abilities."
+  ],
+  "imbue": false,
+  "stats": [
+   "+5% Fire Rate",
+   "43 Shock Damage",
+   "20% Proc Chance",
+   "0.2s Max Frequency",
+   "6 Max Jumps",
+   "10m Jump Radius",
+   "100 Damage",
+   "-60% Max Move Speed",
+   "3s Slow Duration"
+  ],
+  "tier": 4
+ },
+ "Cheat Death": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 6400,
+  "fx": [
+   "When you would take lethal damage, instead become temporarily death immune and remove all non-stun debuffs. While death immune, you deal reduced damage and have reduced healing."
+  ],
+  "imbue": false,
+  "stats": [
+   "+200 Bonus Health",
+   "+15% Bullet Resist",
+   "4.5s Death Immunity Duration",
+   "-60% Damage Reduction",
+   "-60% Incoming Healing"
+  ],
+  "tier": 4
+ },
+ "Close Quarters": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 800,
+  "fx": [
+   "Deal additional Weapon Damage when in close range to your target."
+  ],
+  "imbue": false,
+  "stats": [
+   "+20% Melee Resist",
+   "+20% Weapon Damage",
+   "15m Close Range"
+  ],
+  "tier": 1
+ },
+ "Cold Front": {
+  "active": true,
+  "cat": "Spirit",
+  "cd": 25,
+  "cost": 1600,
+  "fx": [
+   "Release an expanding ice blast that deals spirit damage and Slows targets it hits."
+  ],
+  "imbue": false,
+  "stats": [
+   "+6% Spirit Resist",
+   "95 Damage",
+   "-48% Move Speed",
+   "4s Duration",
+   "10m End Radius"
+  ],
+  "tier": 2
+ },
+ "Colossus": {
+  "active": true,
+  "cat": "Vitality",
+  "cd": 37,
+  "cost": 6400,
+  "fx": [
+   "Grow larger in size, gaining bullet resist, spirit resist, and melee damage. Nearby enemies suffer from slow and have reduced dash speed."
+  ],
+  "imbue": false,
+  "stats": [
+   "+25% Base Health",
+   "+15% Weapon Damage",
+   "35% Bullet Resist",
+   "35% Spirit Resist",
+   "+30% Melee Damage",
+   "-24% Move Speed",
+   "14m Radius",
+   "7s Duration",
+   "20% Model Scale"
+  ],
+  "tier": 4
+ },
+ "Compress Cooldown": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 1600,
+  "fx": [
+   "Imbue an ability to reduce its Cooldown."
+  ],
+  "imbue": true,
+  "stats": [
+   "+18% Ability Cooldown Reduction"
+  ],
+  "tier": 2
+ },
+ "Conjure Missiles": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 6400,
+  "fx": [
+   "Each hero kill grants permanent Fire Rate (up to a max of 5 times). Death results in the loss of 1 stack."
+  ],
+  "imbue": false,
+  "stats": [
+   "+70% Weapon Damage",
+   "+10% Fire Rate",
+   "+1m Move Speed",
+   "-15% Max Health",
+   "+10% Weapon Damage per Kill"
+  ],
+  "tier": 4
+ },
+ "Counterspell": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 3200,
+  "fx": [
+   "Your next parry protects you from the damage and effects of enemy abilities and items. On a successful spell parry heal and gain move speed and Spirit."
+  ],
+  "imbue": false,
+  "stats": [
+   "+50 Bonus Health",
+   "+5 Spirit Power",
+   "150 Healing",
+   "+20 Spirit Power",
+   "+1.75m Move Speed",
+   "6s Buff Duration",
+   "0.8s Spell Parry Duration"
+  ],
+  "tier": 3
+ },
+ "Crippling Headshot": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 6400,
+  "fx": [
+   "Landing a Headshot will reduce their Bullet, Spirit Resist, and Incoming Healing."
+  ],
+  "imbue": false,
+  "stats": [
+   "+125 Bonus Health",
+   "-16% Bullet Resist",
+   "-16% Spirit Resist",
+   "-35% Incoming Healing",
+   "12s Debuff Duration"
+  ],
+  "tier": 4
+ },
+ "Crushing Fists": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 6400,
+  "fx": [
+   "Your next Heavy Melee attack against an enemy deals increased damage.",
+   "Your melee damage will restore ammo and apply a stacking bullet resist debuff on enemies. Heavy melee applies 2 stacks. If the target reaches max stacks, they will be stunned."
+  ],
+  "imbue": false,
+  "stats": [
+   "+60% Heavy Melee Distance",
+   "+22% Melee Damage",
+   "+12% Bullet Resist",
+   "+25% Bonus Heavy Damage",
+   "+15% Ammo",
+   "-5% Bullet Resist",
+   "6 Max Stacks",
+   "0.75s Stun Duration",
+   "8s Debuff Duration"
+  ],
+  "tier": 4
+ },
+ "Cultist Sacrifice": {
+  "active": true,
+  "cat": "Weapon",
+  "cd": 270,
+  "cost": 3200,
+  "fx": [
+   "Target an enemy NPC and consume it for 170% Bonus Souls and grants a powerful long lasting buff."
+  ],
+  "imbue": false,
+  "stats": [
+   "+2 Out of Combat Regen",
+   "+30% Weapon Damage vs. NPCs",
+   "+30% Bullet Resist vs. NPCs",
+   "+10% Weapon Damage",
+   "+50 Bonus Health",
+   "+12% Ability Range",
+   "160s Duration"
+  ],
+  "tier": 3
+ },
+ "Cursed Relic": {
+  "active": true,
+  "cat": "Spirit",
+  "cd": 55,
+  "cost": 6400,
+  "fx": [
+   "Curses an enemy - interrupting, Silencing, Disarming, and preventing item usage. Removes all non-ultimate buffs.Your own Damage Output is reduced for the duration."
+  ],
+  "imbue": false,
+  "stats": [
+   "3.25s Duration",
+   "20m Cast Range",
+   "-25% Damage Penalty"
+  ],
+  "tier": 4
+ },
+ "Debuff Reducer": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 1600,
+  "fx": [
+   "Reduces the duration of all negative effects applied to you."
+  ],
+  "imbue": false,
+  "stats": [
+   "+90 Bonus Health",
+   "+25% Debuff Resist"
+  ],
+  "tier": 2
+ },
+ "Decay": {
+  "active": true,
+  "cat": "Spirit",
+  "cd": 30,
+  "cost": 3200,
+  "fx": [
+   "Inflict damage over time to a target, dealing damage based on their current health.Decay's damage is non-lethal and does not apply item procs."
+  ],
+  "imbue": false,
+  "stats": [
+   "+8 Spirit Power",
+   "+65 Bonus Health",
+   "1.95% DPS Bleed Damage",
+   "-50% Incoming Healing",
+   "20m Cast Range",
+   "12s Duration"
+  ],
+  "tier": 3
+ },
+ "Disarming Hex": {
+  "active": true,
+  "cat": "Spirit",
+  "cd": 16,
+  "cost": 3200,
+  "fx": [
+   "Disarms enemy target and reduces their Bullet Resist."
+  ],
+  "imbue": false,
+  "stats": [
+   "+75 Bonus Health",
+   "+0.75m Sprint Speed",
+   "-13% Bullet Resist",
+   "32m Cast Range",
+   "4.25s Duration"
+  ],
+  "tier": 3
+ },
+ "Dispel Magic": {
+  "active": true,
+  "cat": "Vitality",
+  "cd": 45,
+  "cost": 3200,
+  "fx": [
+   "Purge all non-ultimate negative effects currently applied to you. If any effects were removed, heal yourself and gain a move speed bonus. Cannot be used while Stunned or Slept."
+  ],
+  "imbue": false,
+  "stats": [
+   "+10% Spirit Resist",
+   "250 HP Healed On Activate",
+   "+2m Move Speed",
+   "3s Buff Duration"
+  ],
+  "tier": 3
+ },
+ "Divine Barrier": {
+  "active": true,
+  "cat": "Vitality",
+  "cd": 45,
+  "cost": 6400,
+  "fx": [
+   "Remove all non-stun debuffs from the target and provide them with a Barrier and Move Speed. Can be self-cast. Cooldown is reduced by half when cast on someone else."
+  ],
+  "imbue": false,
+  "stats": [
+   "+10% Ability Range",
+   "+1.5 Out of Combat Regen",
+   "600 Barrier",
+   "+2.75m Move Speed",
+   "6s Buff Duration",
+   "40m Cast Range"
+  ],
+  "tier": 4
+ },
+ "Diviner's Kevlar": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 6400,
+  "fx": [
+   "Upon casting an ultimate ability gain a Barrier and temporary Spirit Power."
+  ],
+  "imbue": false,
+  "stats": [
+   "+15% Ability Duration",
+   "+10% Ultimate Cooldown Reduction",
+   "1000 Barrier",
+   "+40 Spirit Power",
+   "20s Buff Duration"
+  ],
+  "tier": 4
+ },
+ "Duration Extender": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 1600,
+  "fx": [
+   "Imbue an ability to increase its Duration."
+  ],
+  "imbue": true,
+  "stats": [
+   "+22% Ability Duration"
+  ],
+  "tier": 2
+ },
+ "Echo Shard": {
+  "active": true,
+  "cat": "Spirit",
+  "cd": 30,
+  "cost": 6400,
+  "fx": [
+   "Reset the cooldown of the imbued non-ultimate ability.This item's cooldown is increased by the cooldown of the imbued ability."
+  ],
+  "imbue": true,
+  "stats": [
+   "+5% Spirit Resist",
+   "+5% Bullet Resist",
+   "100% Imbued Ability Cooldown"
+  ],
+  "tier": 4
+ },
+ "Enchanter's Emblem": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 1600,
+  "fx": [
+   "While you are above 65% health, gain bonus Spirit and Cooldown Reduction."
+  ],
+  "imbue": false,
+  "stats": [
+   "+18% Spirit Resist",
+   "+2 Out of Combat Regen",
+   "+15 Spirit Power",
+   "+5% Ability Cooldown Reduction"
+  ],
+  "tier": 2
+ },
+ "Endless Magazine": {
+  "active": true,
+  "cat": "Weapon",
+  "cd": 40,
+  "cost": 6400,
+  "fx": [
+   "Gain infinite ammo and bonus fire rate."
+  ],
+  "imbue": false,
+  "stats": [
+   "+100% Max Ammo",
+   "+20% Weapon Damage",
+   "+200 Bonus Health",
+   "+20% Fire Rate",
+   "6s Duration"
+  ],
+  "tier": 4
+ },
+ "Enduring Speed": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 1600,
+  "fx": [
+   "Reduces the effect of enemy Move Speed penalties."
+  ],
+  "imbue": false,
+  "stats": [
+   "+2.0m Move Speed",
+   "+2 Out of Combat Regen",
+   "+25% Slow Resist"
+  ],
+  "tier": 2
+ },
+ "Enduring Spirit": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 800,
+  "imbue": false,
+  "stats": [
+   "+7% Spirit Lifesteal",
+   "+25 Bonus Health"
+  ],
+  "tier": 1
+ },
+ "Escalating Exposure": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 6400,
+  "fx": [
+   "Dealing spirit damage applies a stacking Spirit Amp that increases your spirit damage to the target."
+  ],
+  "imbue": false,
+  "stats": [
+   "-8% Spirit Resist On Spirit Damage",
+   "+17% Spirit Resist",
+   "+4.5% Spirit Amp per Stack",
+   "12 Max Stacks",
+   "12s Duration",
+   "0.7s Max Frequency Per Target"
+  ],
+  "tier": 4
+ },
+ "Escalating Resilience": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 3200,
+  "fx": [
+   "Grants Bullet Resist when your bullets hit a hero. Each shot can only grant one stack."
+  ],
+  "imbue": false,
+  "stats": [
+   "+35% Max Ammo",
+   "+75 Bonus Health",
+   "+18% Weapon Damage",
+   "30% Max Bullet Resist",
+   "2% Bullet Resist per Stack",
+   "24s Stack Duration"
+  ],
+  "tier": 3
+ },
+ "Ethereal Shift": {
+  "active": true,
+  "cat": "Spirit",
+  "cd": 37,
+  "cost": 6400,
+  "fx": [
+   "Instantly enter a void state and become Invulnerable for a short duration.",
+   "Afterwards, gain a variety of temporary buffs:"
+  ],
+  "imbue": false,
+  "stats": [
+   "4s Duration",
+   "+20 Spirit Power",
+   "+30% Spirit Resist",
+   "+3m Move Speed",
+   "5s Buff Duration"
+  ],
+  "tier": 4
+ },
+ "Express Shot": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 3200,
+  "fx": [
+   "Your next attack will fire twice in quick succession with increased damage and velocity. This attack consumes extra ammo."
+  ],
+  "imbue": false,
+  "stats": [
+   "+60% Bullet Velocity",
+   "+8% Weapon Damage",
+   "+125% Weapon Damage",
+   "+40% Secondary Fire Weapon Damage",
+   "+100% Bullet Velocity",
+   "2 Extra Ammo Consumed"
+  ],
+  "tier": 3
+ },
+ "Extended Magazine": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 800,
+  "imbue": false,
+  "stats": [
+   "+30% Max Ammo",
+   "+8% Weapon Damage"
+  ],
+  "tier": 1
+ },
+ "Extra Charge": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 800,
+  "imbue": false,
+  "stats": [
+   "+1 Bonus Ability Charges",
+   "+7 Bonus Spirit Power for Charged Abilities"
+  ],
+  "tier": 1
+ },
+ "Extra Health": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 800,
+  "imbue": false,
+  "stats": [
+   "+210 Bonus Health"
+  ],
+  "tier": 1
+ },
+ "Extra Regen": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 800,
+  "imbue": false,
+  "stats": [
+   "+2.5 Health Regen",
+   "+1.5 Out of Combat Regen"
+  ],
+  "tier": 1
+ },
+ "Extra Spirit": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 800,
+  "imbue": false,
+  "stats": [
+   "+10 Spirit Power"
+  ],
+  "tier": 1
+ },
+ "Extra Stamina": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 800,
+  "imbue": false,
+  "stats": [
+   "+1 Stamina",
+   "+12% Stamina Recovery"
+  ],
+  "tier": 1
+ },
+ "Fleetfoot": {
+  "active": true,
+  "cat": "Weapon",
+  "cd": 16,
+  "cost": 1600,
+  "fx": [
+   "Removes the Move Speed penalty while shooting.",
+   "Gain bonus Move Speed and Slow Resistance."
+  ],
+  "imbue": false,
+  "stats": [
+   "+6% Weapon Damage",
+   "+35% Slide Distance",
+   "+6% Bullet Resist",
+   "+3.0m Move Speed",
+   "+40% Slow Resist",
+   "5s Duration"
+  ],
+  "tier": 2
+ },
+ "Focus Lens": {
+  "active": true,
+  "cat": "Spirit",
+  "cd": 45,
+  "cost": 6400,
+  "fx": [
+   "Target an enemy to Silence them. A portion of all damage dealt during the silence gets applied to the target when the silence wears off."
+  ],
+  "imbue": false,
+  "stats": [
+   "+10% Fire Rate",
+   "35% Damage On Expire",
+   "-9% Spirit Resist",
+   "12s Resist Reduction Duration",
+   "25m Cast Range",
+   "-30 Spirit Power"
+  ],
+  "tier": 4
+ },
+ "Fortitude": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 3200,
+  "fx": [
+   "After not taking damage for a period, gain health regen.",
+   "When you are above 75% health, you have bonus Move Speed."
+  ],
+  "imbue": false,
+  "stats": [
+   "+375 Bonus Health",
+   "+10 s Restore Delay",
+   "+2.25 % Max Health Regen",
+   "+1.5m Move Speed"
+  ],
+  "tier": 3
+ },
+ "Frenzy": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 6400,
+  "fx": [
+   "While you are below 50% health, you gain stat bonuses for a duration and existing debuffs on you are reduced."
+  ],
+  "imbue": false,
+  "stats": [
+   "+160 Bonus Health",
+   "+15% Fire Rate",
+   "+10% Bullet Lifesteal",
+   "4m m/s Move Speed",
+   "40% Fire Rate",
+   "+40% Debuff Resist",
+   "10s Duration"
+  ],
+  "tier": 4
+ },
+ "Fury Trance": {
+  "active": true,
+  "cat": "Vitality",
+  "cd": 18,
+  "cost": 3200,
+  "fx": [
+   "Grants Fire Rate, Spirit Resistance and Move Speed, and removes the Move Speed penalty while shooting, but Silences you and disables stamina usage and regeneration."
+  ],
+  "imbue": false,
+  "stats": [
+   "+14% Bullet Lifesteal",
+   "+100 Bonus Health",
+   "+6% Weapon Damage",
+   "32% Fire Rate",
+   "+1m Move Speed",
+   "+40% Spirit Resist",
+   "6.5s Duration"
+  ],
+  "tier": 3
+ },
+ "Glass Cannon": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 6400,
+  "fx": [
+   "Each hero kill grants permanent Fire Rate (up to a max of 8 times). Death results in the loss of 1 stack."
+  ],
+  "imbue": false,
+  "stats": [
+   "+80% Weapon Damage",
+   "-13% Max Health",
+   "+7% Fire Rate per Kill"
+  ],
+  "tier": 4
+ },
+ "Glass Cannon v2": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 6400,
+  "fx": [
+   "Each hero kill grants permanent Weapon Damage (up to a max of 0 times). Death results in the loss of 1 stack."
+  ],
+  "imbue": false,
+  "stats": [
+   "+100% Weapon Damage",
+   "+100% Fire Rate",
+   "-50% Max Health",
+   "+25% Bullet Velocity"
+  ],
+  "tier": 4
+ },
+ "Golden Goose Egg": {
+  "active": true,
+  "cat": "Spirit",
+  "cost": 800,
+  "fx": [
+   "Gain souls over time, as long as you are alive.",
+   "Hatch the egg, gaining souls and permanent buffs.The value of the egg grows the longer you hold onto it.Gain a permanent buff per 80 Souls accrued when hatched."
+  ],
+  "imbue": false,
+  "stats": [
+   "-15% Damage Penalty",
+   "+1m Sprint Speed",
+   "+1 Out of Combat Regen",
+   "80 Soul Value per Minute"
+  ],
+  "tier": 1
+ },
+ "Greater Expansion": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 3200,
+  "fx": [
+   "Increases the range and effect radius of your abilities and items."
+  ],
+  "imbue": false,
+  "stats": [
+   "+10% Spirit Resist",
+   "+30% Ability Range"
+  ],
+  "tier": 3
+ },
+ "Grit": {
+  "active": true,
+  "cat": "Vitality",
+  "cd": 60,
+  "cost": 800,
+  "fx": [
+   "Gain a Barrier for a short duration."
+  ],
+  "imbue": false,
+  "stats": [
+   "+1 Out of Combat Regen",
+   "200 Barrier",
+   "4s Barrier Duration"
+  ],
+  "tier": 1
+ },
+ "Guardian Ward": {
+  "active": true,
+  "cat": "Vitality",
+  "cd": 60,
+  "cost": 1600,
+  "fx": [
+   "Provide the target with a Barrier and temporary Move Speed. Can be self-cast.Cooldown is reduced by half when cast on someone else."
+  ],
+  "imbue": false,
+  "stats": [
+   "+8% Ability Range",
+   "+1.5 Out of Combat Regen",
+   "250 Barrier",
+   "+2.75m Move Speed",
+   "6s Buff Duration",
+   "40m Cast Range"
+  ],
+  "tier": 2
+ },
+ "Headhunter": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 3200,
+  "fx": [
+   "Your next headshot against an enemy Hero deals bonus weapon damage, heal you, and briefly grants bonus move speed."
+  ],
+  "imbue": false,
+  "stats": [
+   "+5% Weapon Damage",
+   "+50 Bonus Health",
+   "+75 Head Shot Bonus Damage",
+   "4% Heal Per Headshot",
+   "+1.75m Move Speed",
+   "3s Move Speed Duration"
+  ],
+  "tier": 3
+ },
+ "Headshot Booster": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 800,
+  "fx": [
+   "Your next headshot against an enemy Hero deals bonus weapon damage."
+  ],
+  "imbue": false,
+  "stats": [
+   "+30 Bonus Health",
+   "+45 Head Shot Bonus Damage"
+  ],
+  "tier": 1
+ },
+ "Healbane": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 1600,
+  "fx": [
+   "Your spirit damage reduces the enemy's Incoming Healing. If an enemy hero dies under this effect, you receive a large heal."
+  ],
+  "imbue": false,
+  "stats": [
+   "+7 Spirit Power",
+   "-35% Incoming Healing",
+   "275 Heal On Hero Kill",
+   "8s Duration"
+  ],
+  "tier": 2
+ },
+ "Healing Booster": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 1600,
+  "fx": [
+   "Increases the effectiveness of your healing."
+  ],
+  "imbue": false,
+  "stats": [
+   "+3 Health Regen",
+   "+1 Out of Combat Regen",
+   "+20% Outgoing Healing"
+  ],
+  "tier": 2
+ },
+ "Healing Nova": {
+  "active": true,
+  "cat": "Vitality",
+  "cd": 60,
+  "cost": 3200,
+  "fx": [
+   "Heal yourself and nearby allies."
+  ],
+  "imbue": false,
+  "stats": [
+   "+5% Ability Range",
+   "+8 Spirit Power",
+   "325 Total HP Regen",
+   "2s Regen Duration",
+   "18m Radius"
+  ],
+  "tier": 3
+ },
+ "Healing Rite": {
+  "active": true,
+  "cat": "Vitality",
+  "cd": 70,
+  "cost": 800,
+  "fx": [
+   "Grant Regen and Sprint Speed to the target. Gets dispelled if you take damage from enemy players or objectives. Can be self-cast."
+  ],
+  "imbue": false,
+  "stats": [
+   "300 Total HP Regen",
+   "+2m Sprint Speed",
+   "20s Regen Duration",
+   "30m Cast Range"
+  ],
+  "tier": 1
+ },
+ "Healing Tempo": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 6400,
+  "fx": [
+   "Applying heal to yourself or an ally grants the target bonus fire rate and bonus move speed.Does not apply on innate Regen or passive Bullet/Spirit Lifesteals."
+  ],
+  "imbue": false,
+  "stats": [
+   "+25% Outgoing Healing",
+   "+10% Spirit Resist",
+   "+6 Health Regen",
+   "+4 Out of Combat Regen",
+   "+35% Fire Rate",
+   "+1.25m Move Speed",
+   "7s Buff Duration"
+  ],
+  "tier": 4
+ },
+ "Heroic Aura": {
+  "active": true,
+  "cat": "Weapon",
+  "cd": 22,
+  "cost": 3200,
+  "fx": [
+   "Provides Bullet Resist to nearby friendly units.",
+   "Provides move speed and fire rate to you and nearby allies. Minions get double value."
+  ],
+  "imbue": false,
+  "stats": [
+   "+1.5m Sprint Speed",
+   "+17% Bullet Resist",
+   "35m Radius",
+   "+2.25m Move Speed",
+   "+26% Fire Rate",
+   "35m Active Radius",
+   "7s Duration"
+  ],
+  "tier": 3
+ },
+ "Hex-Sealed Knuckles": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 3200,
+  "fx": [
+   "After dealing an accumulated 200 spirit damage, your next Heavy Melee Attack deals an additional 200 spirit damage."
+  ],
+  "imbue": false,
+  "stats": [
+   "+75 Bonus Health",
+   "+1 Health Regen",
+   "+30% Melee Damage",
+   "200 Stored Spirit Damage"
+  ],
+  "tier": 3
+ },
+ "Hexafoil Ward": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 3200,
+  "fx": [
+   "Block the next spirit damage or Debuff, preventing its effects. Only regenerates outside of combat."
+  ],
+  "imbue": false,
+  "stats": [
+   "asdasd Label!",
+   "+15% Spirit Resist"
+  ],
+  "tier": 3
+ },
+ "High-Velocity Rounds": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 800,
+  "imbue": false,
+  "stats": [
+   "+60% Bullet Velocity",
+   "+8% Weapon Damage"
+  ],
+  "tier": 1
+ },
+ "Hollow Point": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 3200,
+  "fx": [
+   "When you are above 65% health, deal additional Weapon Damage and your bullets reduce enemy Bullet Resist."
+  ],
+  "imbue": false,
+  "stats": [
+   "+4.5 Out of Combat Regen",
+   "+125 Bonus Health",
+   "+35% Weapon Damage",
+   "-10% Bullet Resist",
+   "8s Debuff Duration"
+  ],
+  "tier": 3
+ },
+ "Hunter's Aura": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 3200,
+  "fx": [
+   "Reduces nearby enemies' Bullet Resist and Fire Rate. If there is only one enemy hero nearby, this effect is doubled."
+  ],
+  "imbue": false,
+  "stats": [
+   "+100 Bonus Health",
+   "+0.75m Sprint Speed",
+   "-10% Bullet Resist",
+   "-15% Fire Rate",
+   "15m Radius"
+  ],
+  "tier": 3
+ },
+ "Improved Spirit": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 1600,
+  "imbue": false,
+  "stats": [
+   "+18 Spirit Power",
+   "+1.5 Out of Combat Regen"
+  ],
+  "tier": 2
+ },
+ "Indomitable": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 6400,
+  "fx": [
+   "The next Stun, Chain, Immobilize, Sleep, Silence or Fear is automatically cleansed. When this happens, you gain a barrier and all your ability cooldowns get reduced by 20%."
+  ],
+  "imbue": false,
+  "stats": [
+   "+10% Bullet Resist",
+   "+10% Spirit Resist",
+   "+2 Out of Combat Regen",
+   "325 Barrier",
+   "10s Duration"
+  ],
+  "tier": 4
+ },
+ "Infuser": {
+  "active": true,
+  "cat": "Vitality",
+  "cd": 30,
+  "cost": 6400,
+  "fx": [
+   "Gain Spirit Lifesteal and Spirit Power."
+  ],
+  "imbue": false,
+  "stats": [
+   "+13% Spirit Lifesteal",
+   "+10% Spirit Resist",
+   "+100 Bonus Health",
+   "+6 Spirit Power",
+   "+70% Spirit Lifesteal",
+   "+30 Spirit Power",
+   "7s Duration"
+  ],
+  "tier": 4
+ },
+ "Inhibitor": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 6400,
+  "fx": [
+   "Your bullets build up to reduce the target's outgoing damage and apply healing reduction."
+  ],
+  "imbue": false,
+  "stats": [
+   "+10% Weapon Damage",
+   "+150 Bonus Health",
+   "-30% Damage Penalty",
+   "-40% Incoming Healing",
+   "5s Debuff Duration",
+   "0.77% Buildup Per Shot"
+  ],
+  "tier": 4
+ },
+ "Intensifying Magazine": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 1600,
+  "fx": [
+   "Increases Weapon Damage as you continuously fire your weapon."
+  ],
+  "imbue": false,
+  "stats": [
+   "+20% Max Ammo",
+   "45% Max Weapon Damage",
+   "2.5s Time for Max Damage"
+  ],
+  "tier": 2
+ },
+ "Juggernaut": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 6400,
+  "fx": [
+   "Enemies that shoot you have their Fire Rate slowed."
+  ],
+  "imbue": false,
+  "stats": [
+   "+50% Slow Resist",
+   "+2.5m Move Speed",
+   "+25% Melee Resist",
+   "+8 Health Regen",
+   "-40% Fire Rate",
+   "4s Duration"
+  ],
+  "tier": 4
+ },
+ "Kinetic Dash": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 1600,
+  "fx": [
+   "When you Dash-Jump you gain Fire Rate and bonus Ammo until your next reload. Lasts up to 7s."
+  ],
+  "imbue": false,
+  "stats": [
+   "+1 Stamina",
+   "+12% Stamina Recovery",
+   "+25% Fire Rate",
+   "+6 Temporary Ammo",
+   "7s Duration"
+  ],
+  "tier": 2
+ },
+ "Knockdown": {
+  "active": true,
+  "cat": "Spirit",
+  "cd": 35,
+  "cost": 3200,
+  "fx": [
+   "Apply a Stun after 2s. Stun duration is increased against airborne targets.Increases the target's gravity for the duration of the stun."
+  ],
+  "imbue": false,
+  "stats": [
+   "+75 Bonus Health",
+   "+5% Ability Range",
+   "45m Cast Range"
+  ],
+  "tier": 3
+ },
+ "Leech": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 6400,
+  "fx": [
+   "Reduces the effect of enemy applied healing reduction."
+  ],
+  "imbue": false,
+  "stats": [
+   "+28% Spirit Lifesteal",
+   "+28% Bullet Lifesteal",
+   "+180 Bonus Health",
+   "+12% Weapon Damage",
+   "+12 Spirit Power"
+  ],
+  "tier": 4
+ },
+ "Lifestrike": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 3200,
+  "fx": [
+   "Your Melee Attack applies Movement Slow and heals you for a percentage of the Melee Damage dealt plus a fixed amount. This heal is 40% effective vs non-heroes. Cooldown is 1.5x as long for Light Melee hits."
+  ],
+  "imbue": false,
+  "stats": [
+   "+16% Melee Damage",
+   "+125 Bonus Health",
+   "-48% Move Speed",
+   "120 Heal on Melee Hit",
+   "35% Melee Hit Heal",
+   "2.5s Slow Duration"
+  ],
+  "tier": 3
+ },
+ "Lightning Scroll": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 6400,
+  "fx": [
+   "Damage from your ultimate applies a stun and deals bonus spirit damage after a short delay.",
+   "This effect can only trigger once per target per ultimate.",
+   "Mystic Slow effects"
+  ],
+  "imbue": false,
+  "stats": [
+   "-24% Move Speed on Spirit Damage",
+   "+50 Bonus Health",
+   "+0.75m Sprint Speed",
+   "150 Damage",
+   "3s Delay Before Effect"
+  ],
+  "tier": 4
+ },
+ "Long Range": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 1600,
+  "fx": [
+   "Deal additional Weapon Damage when beyond a minimum distance from your target."
+  ],
+  "imbue": false,
+  "stats": [
+   "+8% Weapon Fall-off Range",
+   "+0.75m Sprint Speed",
+   "+40% Weapon Damage",
+   "15m Min. Distance"
+  ],
+  "tier": 2
+ },
+ "Lucky Shot": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 6400,
+  "fx": [
+   "Your bullets have a chance to be empowered, causing them to deal bonus weapon damage on hit.Bonus damage cannot Crit."
+  ],
+  "imbue": false,
+  "stats": [
+   "+30% Max Ammo",
+   "+100% Bonus Weapon Damage",
+   "25% Proc Chance"
+  ],
+  "tier": 4
+ },
+ "Magic Carpet": {
+  "active": true,
+  "cat": "Spirit",
+  "cd": 32,
+  "cost": 6400,
+  "fx": [
+   "Summon a Magic Carpet that will fly you away. While flying you are immune to slows and doing any action will dismiss the carpet. Cannot use abilities while the carpet is being summoned."
+  ],
+  "imbue": false,
+  "stats": [
+   "+15% Ability Duration",
+   "+125 Bonus Health",
+   "+14 Spirit Power",
+   "-15% Gravity Scale",
+   "+25% Air Control",
+   "12s Duration",
+   "+7m Bonus Fly Speed",
+   "1.3s Summon Duration"
+  ],
+  "tier": 4
+ },
+ "Majestic Leap": {
+  "active": true,
+  "cat": "Vitality",
+  "cd": 45,
+  "cost": 3200,
+  "fx": [
+   "Launch yourself high into the air and grant yourself a Barrier. While in the air, you can use the active again to drop down faster.Cannot be used for 5s if attacked by enemy Hero."
+  ],
+  "imbue": false,
+  "stats": [
+   "200 Barrier",
+   "5s Interrupt Cooldown",
+   "8s Barrier Duration",
+   "+50% Air Control"
+  ],
+  "tier": 3
+ },
+ "Majestic Leap - Disabled": {
+  "active": true,
+  "cat": "Vitality",
+  "cd": 16,
+  "cost": 3200,
+  "imbue": false,
+  "stats": [
+   "+8 Spirit Power",
+   "+50 Bonus Health"
+  ],
+  "tier": 3
+ },
+ "Melee Charge": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 1600,
+  "fx": [
+   "Your next Heavy Melee attack against an enemy deals increased damage."
+  ],
+  "imbue": false,
+  "stats": [
+   "+50% Heavy Melee Distance",
+   "+10% Melee Damage",
+   "+6% Bullet Resist",
+   "+25% Bonus Heavy Damage"
+  ],
+  "tier": 2
+ },
+ "Melee Lifesteal": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 800,
+  "fx": [
+   "Your next Melee attack heals you. This heal is 30% effective vs non-heroes. Cooldown is 1.5x as long for Light Melee hits."
+  ],
+  "imbue": false,
+  "stats": [
+   "+12% Melee Damage",
+   "100 Heal on Melee Hit"
+  ],
+  "tier": 1
+ },
+ "Mercurial Magnum": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 6400,
+  "fx": [
+   "Your imbued ability charges up over time with bonus spirit damage, bonus fire rate, and reloads bullets on use. Until your next reload, your bullets deal bonus spirit damage based on your Spirit Power."
+  ],
+  "imbue": true,
+  "stats": [
+   "+20% Max Ammo",
+   "+7 Spirit Power",
+   "+20% Base Bullet Damage",
+   "60 Damage",
+   "+22% Fire Rate",
+   "100% Bullets Reloaded",
+   "14s Charge-Up Time"
+  ],
+  "tier": 4
+ },
+ "Metal Skin": {
+  "active": true,
+  "cat": "Vitality",
+  "cd": 24,
+  "cost": 3200,
+  "fx": [
+   "Become immune to bullets."
+  ],
+  "imbue": false,
+  "stats": [
+   "+12% Bullet Resist",
+   "-1.5m Active Movespeed Penalty",
+   "-20% Dash Distance",
+   "5s Duration"
+  ],
+  "tier": 3
+ },
+ "Monster Rounds": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 800,
+  "imbue": false,
+  "stats": [
+   "+25% Weapon Damage vs. NPCs",
+   "+25% Bullet Resist vs. NPCs",
+   "+1 Out of Combat Regen"
+  ],
+  "tier": 1
+ },
+ "Mystic Burst": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 800,
+  "fx": [
+   "Charges up over time with bonus spirit damage, causing abilities dealing more than 80 damage to deal additional damage."
+  ],
+  "imbue": false,
+  "stats": [
+   "40 Bonus Damage",
+   "14s Charge-Up Time"
+  ],
+  "tier": 1
+ },
+ "Mystic Expansion": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 800,
+  "fx": [
+   "Imbue an ability to increase its range and effect radius."
+  ],
+  "imbue": true,
+  "stats": [
+   "+20% Ability Range"
+  ],
+  "tier": 1
+ },
+ "Mystic Regeneration": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 800,
+  "fx": [
+   "Dealing spirit damage to enemy Heroes grants you Bonus regeneration. Stacks when dealing damage to different heroes."
+  ],
+  "imbue": false,
+  "stats": [
+   "+50 Bonus Health",
+   "4 HP/s Regeneration",
+   "7s Regeneration Duration"
+  ],
+  "tier": 1
+ },
+ "Mystic Reverb": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 6400,
+  "fx": [
+   "Imbue an ability with Lifesteal and to apply slow on a hit target and deal an additional percentage of the damage dealt to enemies around the target after a short delay."
+  ],
+  "imbue": true,
+  "stats": [
+   "+8% Spirit Lifesteal",
+   "50% Damage",
+   "+22% Imbued Lifesteal",
+   "-32% Move Speed",
+   "16m Radius",
+   "3s Delay Duration"
+  ],
+  "tier": 4
+ },
+ "Mystic Shot": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 1600,
+  "fx": [
+   "Your next bullet deals bonus spirit damage."
+  ],
+  "imbue": false,
+  "stats": [
+   "+7 Spirit Power",
+   "+40 Spirit Damage"
+  ],
+  "tier": 2
+ },
+ "Mystic Slow": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 1600,
+  "fx": [
+   "When the target takes spirit damage, they have their Move Speed reduced."
+  ],
+  "imbue": false,
+  "stats": [
+   "+50 Bonus Health",
+   "+0.75m Sprint Speed",
+   "-24% Move Speed",
+   "-10% Dash Distance",
+   "2s Duration"
+  ],
+  "tier": 2
+ },
+ "Mystic Vulnerability": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 1600,
+  "fx": [
+   "When an enemy takes spirit damage, they have their spirit resist reduced."
+  ],
+  "imbue": false,
+  "stats": [
+   "+8% Spirit Resist",
+   "-8% Spirit Resist",
+   "7s Duration"
+  ],
+  "tier": 2
+ },
+ "Opening Rounds": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 1600,
+  "fx": [
+   "Your attacks have additional Weapon Damage against enemies above 50% health."
+  ],
+  "imbue": false,
+  "stats": [
+   "+60% Bullet Velocity",
+   "+8% Weapon Damage",
+   "+7 Spirit Power",
+   "+25% Weapon Damage"
+  ],
+  "tier": 2
+ },
+ "Patron's Healing": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 800,
+  "fx": [
+   "When you receive a Boon, automatically heal."
+  ],
+  "imbue": false,
+  "stats": [
+   "+2 Health Regen"
+  ],
+  "tier": 1
+ },
+ "Phantom Strike": {
+  "active": true,
+  "cat": "Vitality",
+  "cd": 35,
+  "cost": 6400,
+  "fx": [
+   "Teleport to an enemy target and pull them to the ground. Dealing damage, Move speed reduction and Disarm."
+  ],
+  "imbue": false,
+  "stats": [
+   "+15% Weapon Damage",
+   "+8 Spirit Power",
+   "-40% Move Speed",
+   "75 Impact Damage",
+   "25m Cast Range",
+   "3s Debuff Duration"
+  ],
+  "tier": 4
+ },
+ "Plated Armor": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 6400,
+  "fx": [
+   "Gain a chance to either deflect incoming bullets, preventing all weapon damage or prevent all on-hit effects from bullets."
+  ],
+  "imbue": false,
+  "stats": [
+   "+130 Bonus Health",
+   "30% Deflection Percent",
+   "50% On-Hit Prevention Percent"
+  ],
+  "tier": 4
+ },
+ "Point Blank": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 3200,
+  "fx": [
+   "When in close range to your target, gain Weapon Damage and your bullets apply a Movement Slow."
+  ],
+  "imbue": false,
+  "stats": [
+   "+75 Bonus Health",
+   "+30% Melee Resist",
+   "+50% Weapon Damage",
+   "-20% Move Speed",
+   "2s Slow Duration",
+   "15m Close Range"
+  ],
+  "tier": 3
+ },
+ "Quicksilver Reload": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 1600,
+  "fx": [
+   "Your imbued ability charges up over time with bonus spirit damage, bonus fire rate, and reloads bullets on use."
+  ],
+  "imbue": true,
+  "stats": [
+   "44 Damage",
+   "+10% Fire Rate",
+   "100% Bullets Reloaded",
+   "18s Charge-Up Time"
+  ],
+  "tier": 2
+ },
+ "Radiant Regeneration": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 3200,
+  "fx": [
+   "Dealing spirit damage to enemy Heroes grants you Bonus regeneration. Stacks when dealing damage to different heroes.",
+   "Heal and gain bonus Movement Speed for a short duration when you cast an ability."
+  ],
+  "imbue": false,
+  "stats": [
+   "+90 Bonus Health",
+   "4 HP/s Regeneration",
+   "7s Regeneration Duration",
+   "65 Healing on Ability Cast",
+   "+1.75m Move Speed",
+   "3s Duration"
+  ],
+  "tier": 3
+ },
+ "Rapid Recharge": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 3200,
+  "imbue": false,
+  "stats": [
+   "+2 Bonus Ability Charges",
+   "+30% Faster Time Between Charges",
+   "+14% Cooldown Reduction For Charged Abilities",
+   "+14 Bonus Spirit Power for Charged Abilities"
+  ],
+  "tier": 3
+ },
+ "Rapid Rounds": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 800,
+  "imbue": false,
+  "stats": [
+   "+9% Fire Rate"
+  ],
+  "tier": 1
+ },
+ "Reactive Barrier": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 1600,
+  "fx": [
+   "Gain a Barrier when you are Stunned, Chained, Immobilized, Slept or Silenced."
+  ],
+  "imbue": false,
+  "stats": [
+   "+1 Out of Combat Regen",
+   "325 Barrier",
+   "10s Duration"
+  ],
+  "tier": 2
+ },
+ "Rebirth": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 3200,
+  "fx": [
+   "Respawns the hero at the spot they died."
+  ],
+  "imbue": false,
+  "stats": [],
+  "tier": 3
+ },
+ "Rebuttal": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 800,
+  "fx": [
+   "On a successful Parry against an enemy Hero, Heal yourself for the damage parried and returns that damage to the target, and temporarily gain increased damage."
+  ],
+  "imbue": false,
+  "stats": [
+   "-1.75s Parry Cooldown",
+   "+18% Melee Resist",
+   "+75 Bonus Health",
+   "+30% Bonus Damage",
+   "100% Damage Parried as Heal",
+   "6s Buff Duration"
+  ],
+  "tier": 1
+ },
+ "Recharging Rush": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 1600,
+  "fx": [
+   "Dealing significant weapon damage replenishes a charge for each of your charged abilities."
+  ],
+  "imbue": false,
+  "stats": [
+   "+20% Max Ammo",
+   "+10% Weapon Damage",
+   "200 Damage Threshold",
+   "3.5s Time Frame"
+  ],
+  "tier": 2
+ },
+ "Refresher": {
+  "active": true,
+  "cat": "Spirit",
+  "cd": 300,
+  "cost": 6400,
+  "fx": [
+   "Reset the cooldown of all your abilities and restore all your charges."
+  ],
+  "imbue": false,
+  "stats": [],
+  "tier": 4
+ },
+ "Rescue Beam": {
+  "active": true,
+  "cat": "Vitality",
+  "cd": 60,
+  "cost": 3200,
+  "fx": [
+   "Heals a target allied hero and yourself for a percentage of Max Health. Once while healing, you can Pull the target towards you. Can be self-cast."
+  ],
+  "imbue": false,
+  "stats": [
+   "+0.75m Sprint Speed",
+   "+6% Ability Range",
+   "20% Heal Amount",
+   "+0m Move Speed",
+   "2.5s Channel Duration",
+   "35m Cast Range"
+  ],
+  "tier": 3
+ },
+ "Restorative Locket": {
+  "active": true,
+  "cat": "Vitality",
+  "cd": 20,
+  "cost": 1600,
+  "fx": [
+   "When an enemy uses an ability within 32mm range from you, store one Restoration Stack. Consume all stacks to heal yourself and replenish up to 3 stamina based on how many stacks you have."
+  ],
+  "imbue": false,
+  "stats": [
+   "+8% Spirit Resist",
+   "16 Heal Per Stack",
+   "25 Max Stacks",
+   "3 Max Stamina Restore"
+  ],
+  "tier": 2
+ },
+ "Restorative Shot": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 800,
+  "fx": [
+   "Your next bullet will heal you based on what target you hit."
+  ],
+  "imbue": false,
+  "stats": [
+   "+6% Weapon Damage",
+   "50 Healing From Heroes",
+   "20 Healing From NPCs / Orbs"
+  ],
+  "tier": 1
+ },
+ "Return Fire": {
+  "active": true,
+  "cat": "Vitality",
+  "cd": 23,
+  "cost": 1600,
+  "fx": [
+   "Automatically fire a bullet towards any attacker who damages you with their abilities or weapon."
+  ],
+  "imbue": false,
+  "stats": [
+   "65% Bullet Damage Returned",
+   "25% Spirit Damage Returned",
+   "6.5s Duration"
+  ],
+  "tier": 2
+ },
+ "Ricochet": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 6400,
+  "fx": [
+   "Your bullets will ricochet on enemies near your target, applying any bullet procs and dealing a percentage of the original damage."
+  ],
+  "imbue": false,
+  "stats": [
+   "+18% Fire Rate",
+   "65% Ricochet Damage",
+   "2 Ricochet Targets",
+   "13m Ricochet Range"
+  ],
+  "tier": 4
+ },
+ "Rusted Barrel": {
+  "active": true,
+  "cat": "Spirit",
+  "cd": 16,
+  "cost": 800,
+  "fx": [
+   "Target an enemy to reduce their Fire Rate and Bullet Resistance."
+  ],
+  "imbue": false,
+  "stats": [
+   "+60 Bonus Health",
+   "+0.5m Sprint Speed",
+   "-32% Fire Rate",
+   "-8% Bullet Resist",
+   "32m Cast Range",
+   "5s Duration"
+  ],
+  "tier": 1
+ },
+ "Scourge": {
+  "active": true,
+  "cat": "Spirit",
+  "cd": 35,
+  "cost": 6400,
+  "fx": [
+   "Apply Spirit Resist, Debuff Resist and an aura on a friendly target that deals damage to enemies proportional to their max health. Existing debuffs on the target are reduced.Can be self cast."
+  ],
+  "imbue": false,
+  "stats": [
+   "+100 Bonus Health",
+   "2.3% Max Health per second",
+   "+40% Spirit Resist",
+   "+20% Debuff Resist",
+   "10s Duration",
+   "35m Cast Range",
+   "10m Radius"
+  ],
+  "tier": 4
+ },
+ "Shadow Weave": {
+  "active": true,
+  "cat": "Weapon",
+  "cd": 37,
+  "cost": 3200,
+  "fx": [
+   "Become Stealthed. Whenever you take damage while Stealthed you get briefly revealed.",
+   "Attacking or using an ability will end your stealth and start an ambush, temporarily granting you bonus Fire Rate, Spirit Power and Melee Damage."
+  ],
+  "imbue": false,
+  "stats": [
+   "+5 Out of Combat Regen",
+   "+2m Sprint Speed",
+   "13s Stealth Duration",
+   "20m Spot Radius",
+   "+5m Invis Sprint Speed",
+   "+25% Ambush Fire Rate",
+   "+25 Ambush Spirit Power",
+   "25% Ambush Melee Damage",
+   "5s Ambush Duration"
+  ],
+  "tier": 3
+ },
+ "Sharpshooter": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 3200,
+  "fx": [
+   "Deal additional Weapon Damage when beyond a minimum distance from your target."
+  ],
+  "imbue": false,
+  "stats": [
+   "+20% Weapon Fall-off Range",
+   "+25% Weapon Zoom",
+   "+60% Bullet Velocity",
+   "+10% Weapon Damage",
+   "+1.0m Sprint Speed",
+   "-0.7m Move Speed",
+   "+60% Weapon Damage",
+   "15m Min. Distance"
+  ],
+  "tier": 3
+ },
+ "Silence Wave": {
+  "active": true,
+  "cat": "Spirit",
+  "cd": 42,
+  "cost": 3200,
+  "fx": [
+   "Launch an expanding projectile which Silences enemies for a short duration and deals impact damage. Silence does not interrupt channeling abilities."
+  ],
+  "imbue": false,
+  "stats": [
+   "+50 Bonus Health",
+   "75 Damage",
+   "40m Cast Range"
+  ],
+  "tier": 3
+ },
+ "Silencer": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 6400,
+  "fx": [
+   "Your bullets reduce the target's outgoing spirit damage.",
+   "Your bullets build up to a Silence. Victims are immune to the build up for 10s after silence expires."
+  ],
+  "imbue": false,
+  "stats": [
+   "+12% Spirit Resist",
+   "-25% Spirit Damage Reduction",
+   "6s Debuff Duration",
+   "10s Immunity Duration",
+   "1.04% Buildup Per Shot"
+  ],
+  "tier": 4
+ },
+ "Siphon Bullets": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 6400,
+  "fx": [
+   "Your bullets temporarily steal Max HP from enemies. Enemies regain their stolen health when the debuff expires."
+  ],
+  "imbue": false,
+  "stats": [
+   "+15% Weapon Damage",
+   "+10% Bullet Resist",
+   "2.5% Max HP Steal",
+   "17s Steal Duration",
+   "1.2s Max Frequency"
+  ],
+  "tier": 4
+ },
+ "Slowing Bullets": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 1600,
+  "fx": [
+   "Your bullets build up a Movement Slow on enemies."
+  ],
+  "imbue": false,
+  "stats": [
+   "-24% Move Speed",
+   "-20% Dash Distance",
+   "3.5s Slow Duration",
+   "0.7% Buildup Per Shot"
+  ],
+  "tier": 2
+ },
+ "Slowing Hex": {
+  "active": true,
+  "cat": "Spirit",
+  "cd": 29,
+  "cost": 1600,
+  "fx": [
+   "Slows movement of enemy target. Also Silences their movement-based items and abilities.Increases the target's gravity.Does not affect target's stamina usage."
+  ],
+  "imbue": false,
+  "stats": [
+   "+0.5m Sprint Speed",
+   "-16% Move Speed",
+   "-26% Dash Distance",
+   "25m Cast Range",
+   "3.5s Duration"
+  ],
+  "tier": 2
+ },
+ "Soul Explosion": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 3200,
+  "fx": [
+   "Kills or assists cause an explosion where the victim dies. Kills against heroes have greater radius and damage."
+  ],
+  "imbue": false,
+  "stats": [
+   "+110 Bonus Health",
+   "+3 Health Regen",
+   "+6 Spirit Power",
+   "+1m Sprint Speed",
+   "125 Explosion Damage",
+   "4m Explosion Radius",
+   "150% Hero Explosion Multiplier"
+  ],
+  "tier": 3
+ },
+ "Soul Rebirth": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 6400,
+  "fx": [
+   "If you die, after 4s you will respawn at your death location with partial health."
+  ],
+  "imbue": false,
+  "stats": [
+   "+30s Increased Respawn Time",
+   "+12 Spirit Power",
+   "50% Rebirth Health"
+  ],
+  "tier": 4
+ },
+ "Spellbreaker": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 6400,
+  "fx": [
+   "The next instance of high spirit damage you take is significantly reduced."
+  ],
+  "imbue": false,
+  "stats": [
+   "+18% Spirit Resist",
+   "+25% Debuff Resist",
+   "+90 Bonus Health",
+   "65% Spirit Damage Reduction",
+   "175 Damage Threshold"
+  ],
+  "tier": 4
+ },
+ "Spellslinger": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 6400,
+  "fx": [
+   "While in-combat whenever you cast an ability or item, gain a stacking buff that improves fire rate and reload speed. Each stack refreshes the duration."
+  ],
+  "imbue": false,
+  "stats": [
+   "+5% Ability Cooldown Reduction",
+   "+11% Fire Rate",
+   "-10% Reload Time",
+   "6 Max Stacks",
+   "18s Buff Duration"
+  ],
+  "tier": 4
+ },
+ "Spirit Armor": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 1600,
+  "imbue": false,
+  "stats": [
+   "+15% Spirit Resist"
+  ],
+  "tier": 2
+ },
+ "Spirit Burn": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 6400,
+  "fx": [
+   "Dealing significant spirit damage to an enemy within 5s causes an explosion dealing damage and a burn to that enemy. While burning, enemies take damage over time and receive reduced healing.The cooldown is per enemy, so each target can only be burned once per cooldown. Deals half-damage on non-heroes."
+  ],
+  "imbue": false,
+  "stats": [
+   "+6% Ability Range",
+   "500 Damage Threshold",
+   "50 Explosion Damage",
+   "24 Damage Per Second",
+   "20s Immunity Duration",
+   "8s Debuff Duration",
+   "-70% Incoming Healing"
+  ],
+  "tier": 4
+ },
+ "Spirit Lifesteal": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 1600,
+  "imbue": false,
+  "stats": [
+   "+13% Spirit Lifesteal",
+   "+90 Bonus Health",
+   "+6 Spirit Power"
+  ],
+  "tier": 2
+ },
+ "Spirit Rend": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 3200,
+  "fx": [
+   "Your bullets apply a debuff that reduces the Spirit Resist of the target and grants you and your allies Spirit Lifesteal against them.",
+   "Landing headshots against the target reduces their Spirit Resist further."
+  ],
+  "imbue": false,
+  "stats": [
+   "+75 Bonus Health",
+   "-8% Spirit Resist",
+   "+10% Spirit Lifesteal",
+   "-7% Spirit Resist on Headshot",
+   "8s Debuff Duration",
+   "4 Max Stacks",
+   "2s Max Frequency"
+  ],
+  "tier": 3
+ },
+ "Spirit Resilience": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 3200,
+  "fx": [
+   "When below 50% health, gain additional Spirit Resist."
+  ],
+  "imbue": false,
+  "stats": [
+   "+30% Spirit Resist",
+   "+3 Out of Combat Regen",
+   "+15% Spirit Resist"
+  ],
+  "tier": 3
+ },
+ "Spirit Sap": {
+  "active": true,
+  "cat": "Spirit",
+  "cd": 18,
+  "cost": 1600,
+  "fx": [
+   "Target an enemy to reduce their Spirit Resist and Spirit Power."
+  ],
+  "imbue": false,
+  "stats": [
+   "+50 Bonus Health",
+   "-9% Spirit Resist",
+   "-30 Spirit Power",
+   "12s Duration",
+   "40m Cast Range"
+  ],
+  "tier": 2
+ },
+ "Spirit Shielding": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 1600,
+  "fx": [
+   "Gain a Barrier whenever you take significant spirit damage from enemy Heroes in a small time frame."
+  ],
+  "imbue": false,
+  "stats": [
+   "+2.5 Out of Combat Regen",
+   "300 Barrier",
+   "+18% Spirit Resist",
+   "225 Damage Threshold",
+   "3.5s Time Frame",
+   "8s Barrier Duration"
+  ],
+  "tier": 2
+ },
+ "Spirit Shredder": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 1600,
+  "fx": [
+   "Your bullets apply a debuff that reduces the Spirit Resist of the target and grants you and your allies Spirit Lifesteal against them."
+  ],
+  "imbue": false,
+  "stats": [
+   "-8% Spirit Resist",
+   "+10% Spirit Lifesteal",
+   "8s Debuff Duration"
+  ],
+  "tier": 2
+ },
+ "Spirit Snatch": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 3200,
+  "fx": [
+   "When you perform a Light or Heavy Melee attack against a hero, the attack deals extra spirit damage and steals Spirit Resist and Spirit Power.Effects are reduced by 30% for Light Melee hits."
+  ],
+  "imbue": false,
+  "stats": [
+   "+7% Melee Damage",
+   "+75 Bonus Health",
+   "50 Spirit Damage",
+   "12% Spirit Resist Steal",
+   "25 Spirit Power Steal",
+   "10s Duration"
+  ],
+  "tier": 3
+ },
+ "Spirit Strike": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 800,
+  "fx": [
+   "When you perform a Light or Heavy Melee attack against a hero, deal extra spirit damage with the attack and reduce the target's Spirit Resist.Cooldown is 2x longer for Light Melee hits."
+  ],
+  "imbue": false,
+  "stats": [
+   "40 Spirit Damage",
+   "-6% Spirit Resist",
+   "6s Duration"
+  ],
+  "tier": 1
+ },
+ "Spiritual Overflow": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 6400,
+  "fx": [
+   "Gain bonus Fire Rate, Spirit Power and Spirit Lifesteal by charging up when shooting heroes."
+  ],
+  "imbue": false,
+  "stats": [
+   "+13% Ability Duration",
+   "+13% Spirit Lifesteal",
+   "+90 Bonus Health",
+   "+6 Spirit Power",
+   "+25% Fire Rate",
+   "+30 Spirit Power",
+   "+10% Spirit Lifesteal",
+   "1.08% Buildup Per Shot",
+   "15s Duration"
+  ],
+  "tier": 4
+ },
+ "Split Shot": {
+  "active": true,
+  "cat": "Weapon",
+  "cd": 27,
+  "cost": 1600,
+  "fx": [
+   "Make your weapon fire multishot. Hitting more than one Hero per attack will grant a stacking weapon damage bonus. Targets can only be hit once per multishot."
+  ],
+  "imbue": false,
+  "stats": [
+   "5 Weapon Multishot",
+   "+8% Weapon Damage per Stack",
+   "5s Buff Duration",
+   "5 Max Stacks",
+   "12s Stack Duration"
+  ],
+  "tier": 2
+ },
+ "Sprint Boots": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 800,
+  "imbue": false,
+  "stats": [
+   "+2.0m Sprint Speed",
+   "+2 Out of Combat Regen"
+  ],
+  "tier": 1
+ },
+ "Stalker": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 1600,
+  "fx": [
+   "Dealing weapon damage at close range opens a wound and grants you bonus move speed. Wounded enemies take spirit damage over time, have reduced bullet resist, and are revealed through walls."
+  ],
+  "imbue": false,
+  "stats": [
+   "-50% Footstep Sound Distance",
+   "+50 Bonus Health",
+   "17 Damage Per Second",
+   "-6% Bullet Resist",
+   "+1.5m Move Speed",
+   "5s Debuff Duration",
+   "8m Close Range"
+  ],
+  "tier": 2
+ },
+ "Stamina Mastery": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 3200,
+  "fx": [
+   "Allows an additional use of Air Jump or Air Dash before landing."
+  ],
+  "imbue": false,
+  "stats": [
+   "+2 Stamina",
+   "+18% Stamina Recovery",
+   "+23% Air Jump/Dash Distance"
+  ],
+  "tier": 3
+ },
+ "Superior Cooldown": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 3200,
+  "fx": [
+   "Reduces the Cooldown of your abilities."
+  ],
+  "imbue": false,
+  "stats": [
+   "+4 Out of Combat Regen",
+   "+20% Ability Cooldown Reduction"
+  ],
+  "tier": 3
+ },
+ "Superior Duration": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 3200,
+  "fx": [
+   "Increases the duration of your abilities and items."
+  ],
+  "imbue": false,
+  "stats": [
+   "+8% Bullet Resist",
+   "+28% Ability Duration"
+  ],
+  "tier": 3
+ },
+ "Suppressor": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 1600,
+  "fx": [
+   "When you deal spirit damage to enemies, you also reduce their Fire Rate."
+  ],
+  "imbue": false,
+  "stats": [
+   "+6 Spirit Power",
+   "+8% Bullet Resist",
+   "-28% Fire Rate",
+   "4.5s Duration"
+  ],
+  "tier": 2
+ },
+ "Surge of Power": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 3200,
+  "fx": [
+   "Imbue an ability with permanent Spirit Power. When that ability is used, gain bonus Move Speed and maintain full speed while attacking."
+  ],
+  "imbue": true,
+  "stats": [
+   "+28 Imbued Ability Spirit Power",
+   "20% Fire Rate Bonus",
+   "+1.75m Move Speed",
+   "8s Move Speed Duration"
+  ],
+  "tier": 3
+ },
+ "Swift Striker": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 1600,
+  "imbue": false,
+  "stats": [
+   "+20% Fire Rate",
+   "+0.75m Sprint Speed"
+  ],
+  "tier": 2
+ },
+ "Tankbuster": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 3200,
+  "fx": [
+   "Charges up over time with bonus spirit damage, causing abilities dealing more than 165 damage to deal additional damage. Ignores Spirit Resistance."
+  ],
+  "imbue": false,
+  "stats": [
+   "+50 Bonus Health",
+   "40 Damage",
+   "7.5% Current Health Bonus Damage",
+   "14s Charge-Up Time"
+  ],
+  "tier": 3
+ },
+ "Tesla Bullets": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 3200,
+  "fx": [
+   "Your bullets have a chance to shock your target. The shock will jump to a nearby enemy."
+  ],
+  "imbue": false,
+  "stats": [
+   "33 Shock Damage",
+   "15% Proc Chance",
+   "0.2s Max Frequency",
+   "4 Max Jumps",
+   "8m Jump Radius"
+  ],
+  "tier": 3
+ },
+ "Titanic Magazine": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 1600,
+  "imbue": false,
+  "stats": [
+   "+100% Max Ammo",
+   "+14% Weapon Damage"
+  ],
+  "tier": 2
+ },
+ "Torment Pulse": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 3200,
+  "fx": [
+   "Periodically deals spirit damage to the closest two enemies nearby."
+  ],
+  "imbue": false,
+  "stats": [
+   "+100 Bonus Health",
+   "+18% Melee Resist",
+   "25 Pulse Damage",
+   "9m Pulse Radius"
+  ],
+  "tier": 3
+ },
+ "Toughness": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 1600,
+  "imbue": false,
+  "stats": [
+   "+200 Bonus Health"
+  ],
+  "tier": 2
+ },
+ "Toxic Bullets": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 3200,
+  "fx": [
+   "Your bullets build up a Bleed on enemies, causing them to lose a percentage of their Max Health over time. Also reduces Incoming Healing on the bleeding target."
+  ],
+  "imbue": false,
+  "stats": [
+   "1.9% DPS Bleed Damage",
+   "-35% Incoming Healing",
+   "4s Duration",
+   "1.28% Buildup Per Shot"
+  ],
+  "tier": 3
+ },
+ "Transcendent Cooldown": {
+  "active": false,
+  "cat": "Spirit",
+  "cost": 6400,
+  "fx": [
+   "Reduces the Cooldown of your abilities and items."
+  ],
+  "imbue": false,
+  "stats": [
+   "+4 Out of Combat Regen",
+   "+25% Ability Cooldown Reduction",
+   "+25% Item Cooldown Reduction"
+  ],
+  "tier": 4
+ },
+ "Trophy Collector": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 1600,
+  "fx": [
+   "Whenever you score an assist or kill, gain extra sprint, ability range and passive soul generation. This effect stacks and persists through death."
+  ],
+  "imbue": false,
+  "stats": [
+   "-15% Weapon Damage vs. NPCs",
+   "+2.0m Sprint Speed",
+   "+2 Out of Combat Regen",
+   "+0.15m Sprint Speed",
+   "+0.75% Ability Range",
+   "16 Souls per Minute",
+   "16 Max Stacks"
+  ],
+  "tier": 2
+ },
+ "Unstoppable": {
+  "active": true,
+  "cat": "Vitality",
+  "cd": 60,
+  "cost": 6400,
+  "fx": [
+   "Temporarily suppress negative status effects and become immune to Stun, Silence, Sleep, Root, and Disarm. Cannot be used while Stunned or Slept."
+  ],
+  "imbue": false,
+  "stats": [
+   "+25% Debuff Resist",
+   "+125 Bonus Health",
+   "5.5s Duration"
+  ],
+  "tier": 4
+ },
+ "Vampiric Burst": {
+  "active": true,
+  "cat": "Vitality",
+  "cd": 30,
+  "cost": 6400,
+  "fx": [
+   "Grants Lifesteal, Fire Rate, and Ammo. This added Ammo is not limited by your max magazine size."
+  ],
+  "imbue": false,
+  "stats": [
+   "+13% Bullet Lifesteal",
+   "+10% Bullet Resist",
+   "+100 Bonus Health",
+   "+6% Weapon Damage",
+   "70% Bullet Lifesteal",
+   "34% Fire Rate",
+   "+75% Ammo",
+   "5s Duration"
+  ],
+  "tier": 4
+ },
+ "Veil Walker": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 3200,
+  "fx": [
+   "Walking through a cosmic veil grants you Stealth, Heal and increased Move Speed."
+  ],
+  "imbue": false,
+  "stats": [
+   "+125 Bonus Health",
+   "+6 Spirit Power",
+   "3.5m Invis Move Speed",
+   "85 Heal",
+   "8s Invisibility Duration"
+  ],
+  "tier": 3
+ },
+ "Vortex Web": {
+  "active": true,
+  "cat": "Spirit",
+  "cd": 42,
+  "cost": 6400,
+  "fx": [
+   "Throw a vacuum grenade, pulling all enemies into a small area and applying Slowing Hex. Alt Cast to Target Unit Directly."
+  ],
+  "imbue": false,
+  "stats": [
+   "+8% Ability Range",
+   "+0.75m Sprint Speed",
+   "12m Capture Radius",
+   "-28% Move Speed",
+   "4s Duration",
+   "0.5s Tether Duration",
+   "-36% Dash Distance"
+  ],
+  "tier": 4
+ },
+ "Warp Stone": {
+  "active": true,
+  "cat": "Vitality",
+  "cd": 16,
+  "cost": 3200,
+  "fx": [
+   "Teleport straight ahead, gaining Bullet Resist."
+  ],
+  "imbue": false,
+  "stats": [
+   "11m Teleport Range",
+   "+30% Bullet Resist",
+   "6s Buff Duration"
+  ],
+  "tier": 3
+ },
+ "Weakening Headshot": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 1600,
+  "fx": [
+   "Landing a Headshot reduces their Bullet Resist."
+  ],
+  "imbue": false,
+  "stats": [
+   "+60 Bonus Health",
+   "-12% Bullet Resist",
+   "12s Debuff Duration"
+  ],
+  "tier": 2
+ },
+ "Weapon Shielding": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 1600,
+  "fx": [
+   "Gain a Barrier whenever you take significant weapon damage from enemy Heroes in a small time frame."
+  ],
+  "imbue": false,
+  "stats": [
+   "+2.5 Out of Combat Regen",
+   "300 Barrier",
+   "+18% Bullet Resist",
+   "250 Damage Threshold",
+   "4s Time Frame",
+   "8s Barrier Duration"
+  ],
+  "tier": 2
+ },
+ "Weighted Shots": {
+  "active": false,
+  "cat": "Weapon",
+  "cost": 3200,
+  "fx": [
+   "Your bullets build up a Movement Slow on enemies."
+  ],
+  "imbue": false,
+  "stats": [
+   "+30% Weapon Damage",
+   "+22% Debuff Resist",
+   "-14% Stamina Recovery",
+   "-0.5m Move Speed",
+   "-24% Move Speed",
+   "-20% Dash Distance",
+   "3.5s Slow Duration",
+   "0.7% Buildup Per Shot"
+  ],
+  "tier": 3
+ },
+ "Witchmail": {
+  "active": false,
+  "cat": "Vitality",
+  "cost": 6400,
+  "fx": [
+   "Taking heavy hits of spirit damage from an enemy reduces a random ability cooldown."
+  ],
+  "imbue": false,
+  "stats": [
+   "+22% Spirit Resist",
+   "+14 Spirit Power",
+   "4s Cooldown Reduction per Hit",
+   "75 Damage Threshold"
+  ],
+  "tier": 4
+ }
+}

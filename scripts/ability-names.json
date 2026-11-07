@@ -1,0 +1,266 @@
+{
+ "Abrams": [
+  "Siphon Life",
+  "Shoulder Charge",
+  "Infernal Resilience",
+  "Seismic Impact"
+ ],
+ "Apollo": [
+  "Flawless Advance",
+  "Riposte",
+  "Itani Lo Sahn",
+  "Disengaging Sigil"
+ ],
+ "Bebop": [
+  "Sticky Bomb",
+  "Grapple Arm",
+  "Hyper Beam",
+  "Exploding Uppercut"
+ ],
+ "Billy": [
+  "Bashdown",
+  "Blasted",
+  "Chain Gang",
+  "Rising Ram"
+ ],
+ "Calico": [
+  "Gloom Bombs",
+  "Leaping Slash",
+  "Return to Shadows",
+  "Ava"
+ ],
+ "Celeste": [
+  "Light Eater",
+  "Radiant Daggers",
+  "Shining Wonder",
+  "Dazzling Trick"
+ ],
+ "Drifter": [
+  "Eternal Night",
+  "Rend",
+  "Stalker's Mark",
+  "Bloodscent"
+ ],
+ "Dynamo": [
+  "Kinetic Pulse",
+  "Rejuvenating Aurora",
+  "Quantum Entanglement",
+  "Singularity"
+ ],
+ "Graves": [
+  "Borrowed Decree",
+  "Jar of Dead",
+  "Essence Theft",
+  "Grasping Hands"
+ ],
+ "Grey Talon": [
+  "Charged Shot",
+  "Guided Owl",
+  "Rain of Arrows",
+  "Spirit Snare"
+ ],
+ "Haze": [
+  "Fixation",
+  "Bullet Dance",
+  "Smoke Bomb",
+  "Sleep Dagger"
+ ],
+ "Holliday": [
+  "Powder Keg",
+  "Bounce Pad",
+  "Crackshot",
+  "Spirit Lasso"
+ ],
+ "Infernus": [
+  "Flame Dash",
+  "Afterburn",
+  "Concussive Combustion",
+  "Napalm"
+ ],
+ "Ivy": [
+  "Entangling Thorns",
+  "Kudzu Connection",
+  "Stone Form",
+  "Air Drop"
+ ],
+ "Kelvin": [
+  "Arctic Beam",
+  "Frost Grenade",
+  "Ice Path",
+  "Frozen Shelter"
+ ],
+ "Lady Geist": [
+  "Malice",
+  "Life Drain",
+  "Essence Bomb",
+  "Soul Exchange"
+ ],
+ "Lash": [
+  "Grapple",
+  "Death Slam",
+  "Ground Strike",
+  "Flog"
+ ],
+ "McGinnis": [
+  "Mini Turret",
+  "Spectral Wall",
+  "Heavy Barrage",
+  "Medicinal Specter"
+ ],
+ "Mina": [
+  "Sanguine Retreat",
+  "Love Bites",
+  "Nox Nostra",
+  "Rake"
+ ],
+ "Mirage": [
+  "Fire Scarabs",
+  "Djinn's Mark",
+  "Dust Devil",
+  "Traveler"
+ ],
+ "Mo & Krill": [
+  "Burrow",
+  "Scorn",
+  "Combo",
+  "Sand Blast"
+ ],
+ "Paige": [
+  "Plot Armor",
+  "Bookwyrm",
+  "Captivating Read",
+  "Rallying Charge"
+ ],
+ "Paradox": [
+  "Pulse Grenade",
+  "Kinetic Carbine",
+  "Time Wall",
+  "Paradoxical Swap"
+ ],
+ "Pocket": [
+  "Barrage",
+  "Affliction",
+  "Enchanter's Satchel",
+  "Flying Cloak"
+ ],
+ "Rem": [
+  "Tag Along",
+  "Lil Helpers",
+  "Naptime",
+  "Pillow Toss"
+ ],
+ "Seven": [
+  "Power Surge",
+  "Lightning Ball",
+  "Storm Cloud",
+  "Static Charge"
+ ],
+ "Shiv": [
+  "Serrated Knives",
+  "Slice and Dice",
+  "Bloodletting",
+  "Killing Blow"
+ ],
+ "Silver": [
+  "Slam Fire",
+  "Entangling Bola",
+  "Boot Kick",
+  "Lycan Curse"
+ ],
+ "Sinclair": [
+  "Vexing Bolt",
+  "Audience Participation",
+  "Rabbit Hex",
+  "Spectral Assistant"
+ ],
+ "The Doorman": [
+  "Call Bell",
+  "Hotel Guest",
+  "Luggage Cart",
+  "Doorway"
+ ],
+ "Venator": [
+  "Gutshot",
+  "Consecrating Grenade",
+  "Hex-Lined Snap Trap",
+  "Ira Domini"
+ ],
+ "Victor": [
+  "Pain Battery",
+  "Jumpstart",
+  "Aura of Suffering",
+  "Shocking Reanimation"
+ ],
+ "Vindicta": [
+  "Flight",
+  "Crow Familiar",
+  "Assassinate",
+  "Stake"
+ ],
+ "Viscous": [
+  "Splatter",
+  "The Cube",
+  "Puddle Punch",
+  "Goo Ball"
+ ],
+ "Vyper": [
+  "Lethal Venom",
+  "Screwjab Dagger",
+  "Petrifying Bola",
+  "Slither"
+ ],
+ "Warden": [
+  "Binding Word",
+  "Last Stand",
+  "Alchemical Flask",
+  "Willpower"
+ ],
+ "Wraith": [
+  "Project Mind",
+  "Full Auto",
+  "Card Trick",
+  "Telekinesis"
+ ],
+ "Yamato": [
+  "Shadow Transformation",
+  "Flying Slash",
+  "Crimson Slash",
+  "Power Slash"
+ ],
+ "Rat King": [
+  "Rat Swarm",
+  "Royal Pestments",
+  "Rule, Ratannia!",
+  "Scrap Grenade"
+ ],
+ "Baba": [
+  "Threadsap",
+  "Baba's Brew",
+  "Feed The Birds",
+  "Granny Long Legs"
+ ],
+ "Solomon": [
+  "Setup Bishop",
+  "Kingside Knight",
+  "Rook Battery",
+  "Develop Queen"
+ ],
+ "Deadman Danny": [
+  "Strix Salvo",
+  "Chimera Mk1",
+  "Jettison Fuel",
+  "Close The Deal"
+ ],
+ "Violet": [
+  "Living Ink",
+  "Flow State",
+  "Still Life",
+  "Abstract Landscape"
+ ],
+ "Nurse Harrow": [
+  "Leech Therapy",
+  "Wretched Vapors",
+  "Healing Needles",
+  "Lurking Terrors"
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "hero": "Nurse Harrow",
+ "role": "Support",
+ "tip": "Stack leeches like your life depends on it — every jar is permanent regen and fire rate. Fear the dive, numb the burst, and never let a syringe clip go to waste.",
+ "build": [
+  {
+   "name": "Sprint Boots",
+   "category": "Vitality",
+   "price": 800,
+   "phase": "early",
+   "note": "Move speed to stack leeches and reach fear angles.",
+   "pick_rate": null,
+   "win_when_bought": null
+  },
+  {
+   "name": "Extra Spirit",
+   "category": "Spirit",
+   "price": 800,
+   "phase": "early",
+   "note": "Raw power for leech DoT and needle heals; into Improved Spirit.",
+   "pick_rate": null,
+   "win_when_bought": null
+  },
+  {
+   "name": "Mystic Burst",
+   "category": "Spirit",
+   "price": 800,
+   "phase": "early",
+   "note": "Early ability nuke for lane trades; into Tankbuster.",
+   "pick_rate": null,
+   "win_when_bought": null
+  },
+  {
+   "name": "Rapid Rounds",
+   "category": "Weapon",
+   "price": 800,
+   "phase": "early",
+   "note": "Fire rate now, more leech stacks later.",
+   "pick_rate": null,
+   "win_when_bought": null
+  },
+  {
+   "name": "Compress Cooldown",
+   "category": "Spirit",
+   "price": 1600,
+   "phase": "early",
+   "note": "Imbue on Leech Therapy — more jars, more stacks.",
+   "pick_rate": null,
+   "win_when_bought": null
+  },
+  {
+   "name": "Mystic Expansion",
+   "category": "Spirit",
+   "price": 800,
+   "phase": "mid",
+   "note": "Bigger jars, wider fear cone (imbue); into Greater Expansion.",
+   "pick_rate": null,
+   "win_when_bought": null
+  },
+  {
+   "name": "Spirit Lifesteal",
+   "category": "Vitality",
+   "price": 1600,
+   "phase": "mid",
+   "note": "Sustain on leech DoT and ult damage.",
+   "pick_rate": null,
+   "win_when_bought": null
+  },
+  {
+   "name": "Healing Nova",
+   "category": "Vitality",
+   "price": 3200,
+   "phase": "mid",
+   "note": "Team-wide heal active; the triage spike.",
+   "pick_rate": null,
+   "win_when_bought": null
+  },
+  {
+   "name": "Mystic Shot",
+   "category": "Weapon",
+   "price": 1600,
+   "phase": "mid",
+   "note": "Spirit damage on bullet; pairs with leech poke.",
+   "pick_rate": null,
+   "win_when_bought": null
+  },
+  {
+   "name": "Torment Pulse",
+   "category": "Spirit",
+   "price": 3200,
+   "phase": "mid",
+   "note": "AoE spirit burst around the fear cone.",
+   "pick_rate": null,
+   "win_when_bought": null
+  },
+  {
+   "name": "Superior Cooldown",
+   "category": "Spirit",
+   "price": 3200,
+   "phase": "mid",
+   "note": "Upgraded from Compress Cooldown; ult always cycling.",
+   "pick_rate": null,
+   "win_when_bought": null
+  },
+  {
+   "name": "Greater Expansion",
+   "category": "Spirit",
+   "price": 3200,
+   "phase": "late",
+   "note": "Upgraded from Mystic Expansion; enormous fear cone.",
+   "pick_rate": null,
+   "win_when_bought": null
+  },
+  {
+   "name": "Echo Shard",
+   "category": "Spirit",
+   "price": 6400,
+   "phase": "late",
+   "note": "Active: double-cast Lurking Terrors.",
+   "pick_rate": null,
+   "win_when_bought": null
+  },
+  {
+   "name": "Boundless Spirit",
+   "category": "Spirit",
+   "price": 6400,
+   "phase": "late",
+   "note": "Massive spirit power spike; heals and DoT scale.",
+   "pick_rate": null,
+   "win_when_bought": null
+  },
+  {
+   "name": "Refresher",
+   "category": "Spirit",
+   "price": 6400,
+   "phase": "late",
+   "note": "Active: reset everything for the second wave.",
+   "pick_rate": null,
+   "win_when_bought": null
+  },
+  {
+   "name": "Colossus",
+   "category": "Vitality",
+   "price": 6400,
+   "phase": "late",
+   "note": "Active teamfight stomp; survive the channel.",
+   "pick_rate": null,
+   "win_when_bought": null
+  }
+ ]
+}
